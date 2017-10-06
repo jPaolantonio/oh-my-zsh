@@ -246,3 +246,18 @@ alias glum='git pull upstream master'
 
 alias gwch='git whatchanged -p --abbrev-commit --pretty=medium'
 alias gwip='git add -A; git rm $(git ls-files --deleted) 2> /dev/null; git commit --no-verify -m "--wip-- [skip ci]"'
+
+#
+# Aliases (Custom)
+#
+
+alias sl='cd ~/Slice'
+alias ios='cd ~/Slice/ios'
+alias mdev='cd ~/Slice/ios; open Slice.xcworkspace'
+alias ws='cd ~/workspace'
+
+alias blast_derived_data='rm -rf ~/Library/Developer/Xcode/DerivedData/*'
+
+alias gcah='git commit --amend -C HEAD'
+
+alias killDockers='docker rm -f $(docker ps -a -q)'
